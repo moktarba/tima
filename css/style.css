@@ -1,0 +1,173 @@
+/* http://meyerweb.com/eric/tools/css/reset/ 
+   v2.0 | 20110126
+   License: none (public domain)
+*/
+
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center, ul.nav, ul.nav li, 
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section {
+	display: block;
+}
+body {
+	 
+}
+ol, ul {
+	list-style: none;
+}
+blockquote, q {
+	quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+	content: ’’;
+	content: none;
+}
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+
+
+
+/*   Le tyle de l'application */
+
+
+body  #content,.row { margin:  auto ; width: 1200px; }
+
+ #content .row, .no-js {  }
+
+input[type="text"],[type="email"],[type='tel'], textarea { width: 100%; bottom: 25px; }
+
+textarea     { width: 100%; margin-bottom: 20px; }
+
+ .body       { background-color: #B7B2B2; overflow: scroll; height: 770px; }
+
+ .content    { min-height: 500px; }
+
+.body-left, .menu, .nav-float{ padding: 0; }
+
+.nav-float, .nav-tabs > li a, .tabs-left, .tabs-left, .menu { width: 90px; }
+
+.profil      { min-width: 260px; min-height: 424px; padding-left: 0; background: url(../img/font.jpg) center no-repeat; }
+
+.profil img  { width: 70%; height: 110%; margin: 0 center; padding: 0; float: left; top: 50px; }
+
+/*.thumbs   { width: 50px; height: 75px;  margin-top: 55px; } */
+
+.titres > h1 { font-size: 48px; color: #fff; font-family: Arial, verdana, cambria, sans-serif; text-transform: uppercase;}
+
+.titres > h3 { font-size: 18px; font-weight: bolder; color: #2df690; text-align: left; padding-left: 10px; }
+
+.titres > h3::first-letter { text-transform: uppercase; }
+
+.titres      { margin-bottom: 40px; }
+
+.tel         { font-size: 30px ; font-family: calibri, arial, Cambria, sans-serif; color: #fff;  line-height: 35px; min-width: 100%; margin-bottom: 10px; 
+				position: absolute; top: 390px; left: -10px; }
+
+
+.body-left   { max-width: 350px; 
+  				-webkit-background-size: cover;
+  				-moz-background-size: cover;
+  				-o-background-size: cover;
+ 				 background-size: cover; min-height: 420px; }
+
+h5           { color: #000; font-weight: 0.8; bottom: 20px ;  }
+
+.temoignage  { padding: 20px; margin: 10px;  }
+
+.temoignage h5 { font-style: italic; text-decoration: underline;}
+
+.show-temoignage, .mesinfos  { background-color:  #fff; font-style: italic; bottom: 25px; padding: 15px;}
+
+.mesinfos    {  margin: 10px auto; }
+
+.show-temoignage  h5 { font-style: italic; text-decoration: underline;}
+
+.show-infos p  {  font-family: cambria, Arial, calibri; font-size: 20px;  text-decoration: underline; color: #B7B2B2; }
+
+.show-infos span { color: #B7B2B2; font-style: italic; margin-bottom: 40px;}
+
+.formulaire    { margin: 20px auto; }
+
+.adresse, .user  { margin: 5px auto;  font-size: 12px;}
+
+.tab-content { padding: 30px; }
+
+.tab-content p { font-family: cambria, Arial, calibri; font-size: 14px; margin-top: 20px; }
+
+.tab-pane h1 { font-family: Arial ,Cambria, Verdana;  font-size: 18px; font-weight: bolder; bottom: 20px; }	 
+
+.tab-pane::first-letter { text-transform: uppercase;}
+
+
+.tabs-left   { padding-top: 0; top: 0;  right: 0; }
+
+ul .tabs-left{ padding: 0; margin: 0; }
+ 
+.fb-like, .fb-share-button    {  bottom: 10px; bottom: 20px; }
+
+ .nav > hr   { width: 100%; border: 1px black ridge;  margin: 0  !important; padding: 0 !important; position: relative; }
+
+.nav-tabs > li { height: 70px; }
+
+.nav-tabs > li a {clear: both; color: #000; font-family: Calibri,Verdana,Cambria, sans serif; font-size:12px; text-align: center; background-color: #2df690; line-height: 50px;
+
+	               font-weight: bold; text-transform: uppercase; height: 70px; }
+
+
+.nav-tabs img  { background: url(../img/stop.png) no-repeat; margin-top: -11px; margin-left: -16px; background-color: #000; }	 
+
+.nav-fixeed   { position: fixed;}             
+                
+
+.temoignage p > .btn{ float: right; background-color: #000; color: #fff; }
+
+
+.tab-body  { margin: 0; padding: 0; }
+
+.footer    { margin: 0 auto; height: 20px; width: 100%;  position: fixed; }
+
+.footer  a { font-size: 12px; font-family:Cambria, Calibri,Verdana,sans serif; float: left; color: #fff; line-height: 20px; margin: 0 20px 0 10px ; text-align: left; font-style: italic; }
+
+/***************
+/* page de login
+/***************/
+.login-signup { text-align: center; width: 50%; }
+
+.login-signup > h2  {  font-size: 2em; border: 1px ridge #595353; background-color:595353;  color: #fff;}
+
+#content      { margin: 0 auto; text-align: center; }
+
+.content      { margin: 0 auto; text-align: center; }  
+
+button a     { color: #fff;}
+
+button a:hover { color:# #fff; }
+
+/***************
+/*corps temoignage
+/***************/
+
+.body_temo    { background-color: #fff; color: #000; border-radius: 3px;}
+.body_temo .css_temo  { color: #726D6D; }
